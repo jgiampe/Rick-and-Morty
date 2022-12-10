@@ -1,0 +1,73 @@
+
+.Nav{
+    margin: 0 0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3em;
+}
+.Nav button{
+    font-weight: bold;
+    padding: 0.3em;
+    font-size: 1.2em;
+}
+
+.random{
+    background-color: rgb(169, 173, 78);
+    color: white;
+    font-weight: bold;
+    
+    border-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1em;
+}
+
+.random:hover{
+    border-color: white;
+    box-shadow: 0 0 0.8em rgb(227, 238, 19);
+}
+
+.remove{
+    background-color: rgb(211, 82, 18);
+    color: white;
+    font-weight: bold;
+    
+    border-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1em;
+}
+
+.remove:hover{
+    border-color: white;
+    box-shadow: 0 0 0.8em red;
+}
+
+.navlink{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.3em;
+    font-size: 1.2em;
+    border-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1em;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.navlink:hover{
+    border-color: white;
+    box-shadow: 0 0 0.8em rgb(154, 84, 220) ;
+}
+
+.logout{
+    background-color: rgb(85, 85, 85);
+    padding: 0.3em;
+    border-radius: 1em;
+    color: white;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.548);
+}
+
+.logout:hover{
+    border-color: white;
+    box-shadow: 0 0 0.8em rgb(203, 203, 203) ;
+}

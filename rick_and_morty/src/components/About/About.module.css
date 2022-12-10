@@ -1,0 +1,29 @@
+
+.About{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5em;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+}
+
+.About img{
+    width: 40%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    text-align: left;
+    align-items: center;
+}
+
+
+
+.text{
+    width: 40%;
+    margin:0;
+    
+}

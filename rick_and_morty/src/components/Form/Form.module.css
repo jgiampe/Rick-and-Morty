@@ -1,0 +1,29 @@
+.form{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    color: aliceblue;
+}
+
+.form img{
+    width: 25%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.errors{
+    color: red;
+    font-weight: 500;
+    margin: 0.5em
+}
+
+.submit{
+    border-radius: 1em;
+    padding: .5em;
+    background-color: rgb(177, 244, 77);
+}

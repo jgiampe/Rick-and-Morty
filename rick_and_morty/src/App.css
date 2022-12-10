@@ -1,0 +1,28 @@
+.App {
+   background-image: url("https://wallpapercave.com/wp/wp2088351.jpg");
+
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   /* text-align: center; */
+   padding-top: 1em;
+   overflow: scroll;
+   
+}
+/* 
+   GIF PORTAL
+https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de670d825e1a43ea872f8d35a0838fcf~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp? 
+
+JPG Espacio
+https://wallpapercave.com/wp/wp2088351.jpg
+*/
+
+
+.firstItem {
+   list-style-type: none;
+   padding: 0;
+   margin-bottom: 3em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}

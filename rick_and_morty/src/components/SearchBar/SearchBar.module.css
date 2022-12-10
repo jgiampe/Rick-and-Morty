@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.search input{
+    font-size: 1.5em;
+    border-radius: 0.4em;
+    width: 8em;
+}
+
+.search button{
+    background-color: rgb(86, 181, 86);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1em;
+}
+
+.search button:hover{
+    border-color: white;
+    box-shadow: 0 0 0.8em rgb(53, 255, 53);
+}
+

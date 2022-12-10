@@ -1,0 +1,52 @@
+.card {
+    background-color: aliceblue;
+    border-radius: 0.5em;
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 0.8em white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin: 0.2em 0.4em 0.4em 0;
+}
+
+.close button{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 0.3em;
+    border-width: 0.1em;
+    outline: none;
+    width: 2em;
+}
+.onTop {
+    background-color: rgba(0, 0, 0, 0.533);
+    color: white;
+    position: absolute; 
+    bottom: 0.1rem; 
+    left: 0.7rem;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.desc h2{
+    font-weight: normal;
+}
+
+.fav{
+    border-width: 0;
+    background-color: transparent;
+}

@@ -1,0 +1,21 @@
+.fav div div div button{
+    display: none;
+}
+
+.fav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filters{
+    margin: 3em 0 3em;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.filters label{
+    margin: 0 0 0 6em
+}
